@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTopButton from "@/../utils/ScrollToTopButton";
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -16,30 +17,32 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Abdul Basit | Full Stack Developer & AI Automation Expert",
+  title: "Luis Monasterios | Systems Automation Engineer & Data Analyst",
   description:
-    "Explore the portfolio of Abdul Basit, a Professional Full Stack Developer specializing in Next.js, AI Automation, and modern web solutions. Built for performance and user experience.",
+    "Portfolio of Luis Monasterios, a Systems Automation Engineer specializing in Python, SQL, and high-performance automated workflows. Transforming manual processes into efficient digital systems.",
   keywords: [
-    "Abdul Basit",
-    "Full Stack Developer",
-    "Next.js Portfolio",
-    "AI Automation",
-    "Software Engineer",
-    "React Developer",
+    "Luis Monasterios",
+    "Systems Automation Engineer",
+    "Data Analyst",
+    "Python Automation",
+    "SQL Expert",
+    "Process Optimization",
+    "Venezuela Developer",
+    "Aragua Engineer",
   ],
-  authors: [{ name: "Abdul Basit" }],
+  authors: [{ name: "Luis Monasterios" }],
   openGraph: {
-    title: "Abdul Basit | Personal Portfolio",
+    title: "Luis Monasterios | Systems Automation Portfolio",
     description:
-      "Full Stack Developer & AI Automation Expert — Building the future of the web.",
-    url: "https://abdulbasit-005.vercel.app",
-    siteName: "Abdul Basit Portfolio",
+      "Systems Automation Engineer & Data Analyst — Eliminating manual overhead through code.",
+    url: "https://tu-dominio-aqui.vercel.app", // Recuerda cambiar esto cuando lo despliegues
+    siteName: "Luis Monasterios Portfolio",
     images: [
       {
-        url: "/Website-overview.png",
+        url: "/Website-overview.png", // Asegúrate de que esta imagen esté en tu carpeta public
         width: 1200,
         height: 630,
-        alt: "Abdul Basit Portfolio Overview",
+        alt: "Luis Monasterios Portfolio Overview",
       },
     ],
     locale: "en_US",
@@ -47,8 +50,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Abdul Basit | Full Stack Developer",
-    description: "Building modern web applications and AI automations.",
+    title: "Luis Monasterios | Automation Engineer",
+    description: "Building autonomous workflows and data-driven solutions.",
     images: ["/Website-overview.png"],
   },
   robots: {
@@ -69,7 +72,7 @@ export default function RootLayout({
       >
         <Navbar />
         <main className="text-white">
-          <div className="container">{children}</div>
+          <div className="container mx-auto px-4">{children}</div>
         </main>
         <ScrollToTopButton />
         <Footer />

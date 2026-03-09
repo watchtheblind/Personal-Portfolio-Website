@@ -3,7 +3,7 @@
 import { personalData } from "@/../utils/Data/PersonalData";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
 
 const Footer = () => (
@@ -14,15 +14,15 @@ const Footer = () => (
           <Link href="/" className="w-fit">
             <Image
               src="/logo.png"
-              alt="Abdul Basit Logo"
+              alt="Luis Monasterios Logo"
               width={100}
               height={100}
               className="brightness-125"
             />
           </Link>
           <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-            Professional Full Stack Developer dedicated to crafting immersive,
-            high-performance digital experiences with cutting-edge technology.
+            Professional Systems Automation Engineer dedicated to eliminating
+            manual overhead by building high-performance, autonomous workflows.
           </p>
         </div>
 
@@ -90,20 +90,6 @@ const Footer = () => (
             >
               <FaLinkedin size={20} />
             </Link>
-            <Link
-              href={personalData.twitter}
-              target="_blank"
-              className="p-2 rounded-lg bg-white/5 hover:bg-red-500/10 hover:text-red-500 transition-all border border-white/5"
-            >
-              <FaTwitter size={20} />
-            </Link>
-            <Link
-              href={personalData.Instagram}
-              target="_blank"
-              className="p-2 rounded-lg bg-white/5 hover:bg-red-500/10 hover:text-red-500 transition-all border border-white/5"
-            >
-              <FaInstagram size={20} />
-            </Link>
           </div>
         </div>
       </div>
@@ -111,11 +97,8 @@ const Footer = () => (
       {/* Divider & Copyright */}
       <div className="mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-500 text-sm">
         <p>
-          &copy; {new Date().getFullYear()} Abdul Basit. All rights reserved.
-        </p>
-        <p className="flex items-center gap-2">
-          Made with <span className="text-red-600 animate-pulse">❤️</span> in
-          Pakistan
+          &copy; {new Date().getFullYear()} Luis Monasterios. All rights
+          reserved.
         </p>
       </div>
     </div>

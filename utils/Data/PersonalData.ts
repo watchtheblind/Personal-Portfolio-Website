@@ -1,7 +1,7 @@
 export const personalData = {
-  name: "Abdul Basit",
+  name: "Luis Monasterios",
   profile: "/pic3.jpg",
-  designation: "Full-Stack Web",
+  designation: "Systems Automation Engineer.",
   designationAlternateWords: [
     "Developer.",
     "Engineer.",
@@ -9,19 +9,20 @@ export const personalData = {
     "Innovator.",
     "Designer.",
   ],
-  description:
-    "I’m Abdul Basit, a dedicated Full-Stack Developer specializing in TypeScript and crafting responsive, user‑centric interfaces with React and Next.js. I build full‑stack websites using Next.js and Prisma—leveraging Prisma’s type‑safe ORM to integrate robust database layers seamlessly into my applications. Passionate about continuous learning, I stay at the forefront of emerging technologies to deliver scalable, maintainable solutions that exceed expectations.",
-  email: "rajaabdulbasit@gmail.com",
-  phone: "+923175972977",
-  address: "Islamabad",
-  github: "https://github.com/abdulbasit-005",
-  facebook: "https://www.facebook.com/profile.php?id=100092595303195",
-  Instagram: "https://www.instagram.com/captain_ghost005",
-  linkedIn: "https://www.linkedin.com/in/abdulbasit005/",
-  twitter: "https://twitter.com/Ghost_oo5",
-  stackOverflow: "https://stackoverflow.com/users/15349472/captain-ghost",
-  devUsername: "GHOST 005",
-  leetcode: "https://leetcode.com/u/rajaabdulbasit005/",
+  description: ` 
+  I’m Luis Monasterios, a Systems Automation Engineer specializing in transforming tedious, repetitive processes into seamless, automated workflows. My focus is on eliminating operational overhead by developing custom solutions that turn hours of manual reporting into seconds of automated output and process thousands of records or organize complex files with a single, error-free click. By automating data collection and information management, I enable teams to step away from mechanical tasks and focus on the strategic decisions that truly drive business growth. Every solution I deliver is built not only for immediate speed but also to scale alongside your organization’s evolving needs.
+   `,
+  email: "ljmm2k2@gmail.com",
+  phone: "+584243552206",
+  address: "Venezuela",
+  github: "https://github.com/watchtheblind",
+  facebook: "",
+  Instagram: "",
+  linkedIn: "https://www.linkedin.com/in/luis-monasterios-aa369a17b/",
+  twitter: "",
+  stackOverflow: "",
+  devUsername: "WATCHTHEBLIND",
+  leetcode: "",
   resume:
-    "https://drive.google.com/file/d/1TmtDCIlCaZJ4b0npzjwsdDtxiOWwye23/view?usp=drive_link",
+    "https://docs.google.com/document/d/1Kt_sMtWnTnPXxK7Ec1DicunzGW4S9MU-/edit?usp=drive_link&ouid=102469607245146404476&rtpof=true&sd=true",
 };

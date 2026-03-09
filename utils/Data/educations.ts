@@ -1,8 +1,8 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor's in Information Technology'",
-    duration: "2020 - Present",
-    institution: "University of Chakwal",
+    title: "Bachelor's Degree in Systems Engineering",
+    duration: "2019 - 2024",
+    institution: "National Experimental University of the Armed Forces (UNEFA)",
   },
 ];

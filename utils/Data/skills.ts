@@ -1,20 +1,27 @@
 export const skillsData = [
-  "HTML",
-  "CSS",
+  // Automation
+  "Python",
+  "Pandas",
+  "OpenPyXL",
+  "Selenium",
+  "BeautifulSoup",
+  "Web Scraping",
+  "Task Automation",
+
+  // Frontend
+  "React",
+  "Tailwind",
   "Javascript",
   "Typescript",
-  "React",
-  "Next JS",
-  "Tailwind",
-  "Node Js",
+  "HTML",
+  "CSS",
+
+  // Backend & Databases
   "MongoDB",
   "MySQL",
-  "Firebase",
+  "PostgreSQL",
+
+  // Tools
   "Git",
   "Figma",
-  "Bootstrap",
-  "MaterialUI",
-  "Canva",
-  "Illustrator",
-  "Photoshop",
 ];

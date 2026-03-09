@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { ProjectCardProps } from "@/Types/types";
-import { ChevronUp, Code, ExternalLink, Globe, Sparkles } from "lucide-react";
+import { ChevronUp, Code, ExternalLink, Sparkles } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { MouseEvent, useRef, useState } from "react";
@@ -151,7 +151,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         </div>
 
         <CardFooter className="p-6 pt-2 flex gap-4">
-          <Link href={project.demo || "#"} target="_blank" className="flex-1">
+          {/* <Link href={project.demo || "#"} target="_blank" className="flex-1">
             <Button
               className={`w-full h-11 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 flex items-center justify-center gap-2 border border-white/10 ${
                 project.demo
@@ -163,7 +163,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
               <Globe className="w-4 h-4" />
               Live Demo
             </Button>
-          </Link>
+          </Link> */}
           <Link href={project.code || "#"} target="_blank" className="flex-1">
             <Button
               className={`w-full h-11 rounded-xl text-xs font-bold uppercase tracking-widest transition-all duration-300 flex items-center justify-center gap-2 border border-white/10 ${

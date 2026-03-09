@@ -6,10 +6,8 @@ import { SplitText } from "gsap/dist/SplitText";
 import Link from "next/link";
 import { useRef } from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
 import Tilt from "react-parallax-tilt";
 
 const HeroSection = () => {
@@ -114,7 +112,7 @@ const HeroSection = () => {
         <div className="order-2 lg:order-1 flex flex-col items-start gap-8">
           <div className="flex flex-col gap-4">
             <span className="hero-tag px-4 py-1.5 rounded-full bg-red-500/10 border border-red-500/20 text-red-500 text-xs font-bold tracking-[0.3em] w-fit">
-              WELCOME TO MY UNIVERSE
+              WELCOME TO MY PORTFOLIO
             </span>
             <h1 className="hero-heading text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1]">
               Crafting{" "}
@@ -123,7 +121,7 @@ const HeroSection = () => {
               </span>
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-800 to-red-950">
-                Masterpieces
+                Solutions
               </span>
             </h1>
             <p className="hero-heading text-lg md:text-xl text-slate-400 max-w-xl leading-relaxed font-medium">
@@ -157,20 +155,6 @@ const HeroSection = () => {
                 className="social-icon p-3 rounded-xl bg-white/5 border border-white/10 text-white hover:text-red-500 hover:border-red-500/50 transition-all duration-300 shadow-xl"
               >
                 <BsLinkedin size={24} />
-              </Link>
-              <Link
-                href={personalData.leetcode}
-                target="_blank"
-                className="social-icon p-3 rounded-xl bg-white/5 border border-white/10 text-white hover:text-red-500 hover:border-red-500/50 transition-all duration-300 shadow-xl"
-              >
-                <SiLeetcode size={24} />
-              </Link>
-              <Link
-                href={personalData.twitter}
-                target="_blank"
-                className="social-icon p-3 rounded-xl bg-white/5 border border-white/10 text-white hover:text-red-500 hover:border-red-500/50 transition-all duration-300 shadow-xl"
-              >
-                <FaTwitterSquare size={24} />
               </Link>
             </div>
 
@@ -236,14 +220,17 @@ const HeroSection = () => {
                     <span className="text-slate-600 italic">02</span>
                     <p className="ml-4">
                       <span className="text-slate-200">name:</span>{" "}
-                      <span className="text-red-300">'Abdul Basit'</span>,
+                      <span className="text-red-300">'Luis Monasterios'</span>,
                     </p>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-slate-600 italic">03</span>
                     <p className="ml-4">
                       <span className="text-slate-200">focus:</span>{" "}
-                      <span className="text-red-300">'Fullstack Mastery'</span>,
+                      <span className="text-red-300">
+                        'Data Automation Mastery'
+                      </span>
+                      ,
                     </p>
                   </div>
                   <div className="flex gap-4">
@@ -251,7 +238,7 @@ const HeroSection = () => {
                     <p className="ml-4">
                       <span className="text-slate-200">skills:</span> [
                       <span className="text-red-300">
-                        'NextJS', 'GSAP', 'AI'
+                        'Python', 'Automation', 'Databases'
                       </span>
                       ],
                     </p>
@@ -267,7 +254,9 @@ const HeroSection = () => {
                     <span className="text-slate-600 italic">06</span>
                     <p className="ml-4">
                       <span className="text-slate-200">motto:</span>{" "}
-                      <span className="text-red-400">"Build with Purpose"</span>
+                      <span className="text-red-400">
+                        "Make it faster, Make it better"
+                      </span>
                     </p>
                   </div>
                   <div className="flex gap-4">
